@@ -1,0 +1,56 @@
+#!/bin/sh
+if [ $# -ne 1 ]
+        then
+echo "Se requiere un parametro [ start | stop]"
+exit 0
+fi
+case $1 in
+
+"start")
+
+
+#default policies
+iptables -P INPUT DROP
+iptables -P OUTPUT DROP
+iptables -P FORWARD DROP
+
+
+#delete rules
+iptables -F
+# SSH iptables access rules:WAN
+sudo iptables -A INPUT -i ens4 -d 10.3.4.174 -p tcp --dport 2222 -j ACCEPT
+sudo iptables -A OUTPUT -o ens4 -s 10.3.4.174 -p tcp --sport 2222 -j ACCEPT
+
+#SSH iptables access rules:LAN
+sudo iptables -A INPUT -i ens10 -d 192.168.118.254 -p tcp --dport 2222 -j ACCEPT
+sudo iptables -A OUTPUT -o ens10 -s 192.168.118.254 -p tcp --sport 2222 -j ACCEPT
+
+#SSH iptables access rules:DMZ
+sudo iptables -A INPUT -i ens3 -d 172.20.118.100 -p tcp --dport 2222 -j ACCEPT
+sudo iptables -A OUTPUT -o ens3 -s 172.20.118.100 -p tcp --sport 2222 -j ACCEPT
+
+#DHCP access rules:LAN
+iptables -A INPUT -i ens10 -p udp --dport 67 --sport 68 -j ACCEPT
+iptables -A OUTPUT -o ens10 -p udp --sport 67 --dport 68  -j ACCEPT
+
+#DHCP access rules:DMZ
+iptables -A INPUT -i ens3 -p udp --dport 67 --sport 68 -j ACCEPT
+iptables -A OUTPUT -o ens3 -p udp --sport 67 --dport 68 -j ACCEPT
+
+;;
+iptables -F
+iptables -P INPUT ACCEPT
+iptables -P OUTPUT ACCEPT
+iptables -P FORWARD ACCEPT
+;;
+
+*)
+echo "Se requiere un parametro valido [ start | stop ]"
+exit 2
+;;
+esac
+exit 3
+
+
+
+
