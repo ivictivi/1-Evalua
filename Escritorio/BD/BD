@@ -1,0 +1,20 @@
+BASE DE DATOS
+PHPMYADMIN
+BEGIN
+------declarar una rutina:
+DECLARE
+importe_compra real (9,2);
+SELECT id_cliente sum(importe_pedido(id_pedido)) into importe_compra
+from 'cabped'
+where id_cliente=elcliente;
+return importe_compra;
+END
+--- compras de un cliente
+select nombre,compras,cliente(id_cliente) as compra
+from 'clientes'
+where compra_cliente(id_cliente) is not null
+---- suma de pedidos en el mes...
+SELECT id_cliente, 
+SUM (importe_pedido(idpedido))
+from 'cabped'
+where id_cliente=19 and month(FECHA_PED=11)
