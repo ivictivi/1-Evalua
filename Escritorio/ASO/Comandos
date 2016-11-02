@@ -1,0 +1,305 @@
+alias [nombre="comando"]	|Define un alias o los visualiza| unalias
+apropos cadena				|Muestra comandos del manual donde aparece la cadena. Equivale a man -k| man help whatis which whereis locate
+at hora_base [±nº  unidad_de_tiempo]	|Ejecuta comandos en un instante especificado| atq atrm crontab
+atq					|Muestra las tareas pendientes de atd| at atrm
+atrm			|Elimina una tarea planificada para atd| at atq
+awk			|Escanea y procesa texto| sed
+basename fich		|Muestra sólo el nombre del fichero (omite la ruta)|
+bash			|shell de Bourne mejorada (Bourne Again Shell)| sh csh ksh tcsh wish
+banner texto		|Muestra el texto en grande| echo
+bc [-l]			|Calculadora básica| expr
+bg [%nº|nºPID]		|Vuelve a lanzar en background los trabajos detenidos| fg jobs
+cal [-j] [mes año]	|Visualiza un calendario| date calendar
+calendar		|Efemérides y agenda personal| cal date
+cat fichs		|Muestra ficheros de texto| tac zcat less more vi uniq nl head tail od
+cd dir						|Cambiamos de directorio| pwd
+chage {-M maxdías -W aviso |-l} usuario 	|Establece/visualiza el número de días para cambio de contraseña| passwd
+chattr {+|-|=}{ASacDdIijsTtu} fichs		|Cambia los atributos ext2 del fichero| lsattr chmod
+chfn [-f nombre -r despacho -w tfno-oficina -h tfno-casa]	|Modifica la información opcional de un usuario| finger /etc/passwd
+chgrp [-R] grupo fichs				|Cambia de grupo propietario a archivos| chown
+chmod {{augo}{+|-|=}{rwx},... | mask} fichs	|Cambia permisos a ficheros| umask chattr
+chown [-R] usuario fichs			|Cambia de usuario propietario a archivos| chgrp
+chroot dir			|Especifica un nuevo directorio raíz|
+cksum fich		|Muestra el CRC checksum| md5sum sum
+clear			|limpia la pantalla|
+cmp fich1 fich2		|Compara dos ficheros| diff comm
+comm fich1 fich2	|Compara ficheros ordenados| cmp diff
+convert fichIn fichOut	|Convierte una imagen de un formato a otro|
+cp fichs destino	|copia ficheros| mv ln rename
+crontab {-l|-r|-e}	|Planifica tareas a intervalos de tiempo| at
+csh						|Shell C. Pensada para conocedores del lenguaje C| tcsh sh bash ksh  wish
+cut {-c inic-fin |-f[-d carácter]} fichs	|Limita las líneas de salida a ciertas columnas o campos|
+date [+"%códigos"]				|Muestra y establece la fecha y hora del sistema|
+dd if=fich1 of=fich2	|crea imágenes|
+df dev			|Muestra información sobre uso del disco| du free
+diff fich1 fich2		|Compara dos ficheros| cmp comm
+dig [@dns] [dominio | -x ip]	|Consulta a DNS. Envía un registro de zona| nslookup dig host
+dir dirS			|Muestra un listado de directorios| ls
+dircolors		|Colores utilizados por ls| ls
+du [-ac] fichs		|tamaño ocupado en disco (recursivo para directorios)| df free
+echo [-ne] mensaje	|Escribe una línea de texto| banner
+emacs			|Editor de texto. Permite macros| vi
+env			|visualiza las variables de entorno| set export unset
+exit			|Cierra una shell| logout shutdown
+export [variable]	|Transporta variables de shell al área de entorno|  env set unset
+expr exp		|Evalúa expresiones aritmético-lógicas| let bc factor
+factor nº		|Descompone un número en factores primos| bc
+false			|Escribe un 1 en la variable $?| true
+fdformat /dev/fd0  				|Formatea un diskete a bajo nivel| mkfs
+find [ruta] expresión [-exec orden{} \;]	|Busca archivos| grep
+fg [%nº|nºPID]					|vuelve a lanzar (en foreground) los trabajos detenidos| bg jobs ^Z
+file fichs		|Informa sobre el formato del archivo| type /usr/share/misc/file/magic
+finger [usuarios]	|información sobre usuarios| chfn who
+free			|Información de memoria| df du
+fsck dispositivo	|Comprueba y repara el sistema de archivos|
+fuser [-mk] fichs	|Muestra los procesos que utilizan un fichero| lsof
+gcc [-ESc] [-o fich]	|Compilador C/C++ de GNU|
+gdm				|Lanza la patalla de inicio de sesión gráfico - gnome| startx xdm kdm 
+grep [-ivc] patrón [fichs]	|Muestra las líneas que cumplen cierto patrón (filtro)| find
+groupadd nombre			|Crea un nuevo grupo de usuarios| useradd
+groupdel nombre			|Elimina un grupo de usuarios| userdel
+groupmod -n new_name nombre	|Modifica un grupo de usuarios| usermod
+groups [usuarios]		|Muestra los grupos a los que pertenece el usuario| id
+grpck			|Verifica la integridad de los archivos de grupos| pwck
+gzip [-d] fichero	|Comprime archivos|
+head [-nº] fich 	|Muestra las n primeras líneas de un fichero| tail more less cat od vi
+comando --help  	|Muestra las opciones posibles para el comando| man
+history			|Muestra el historial de comandos| ! script
+host dominio [dns]	|Consulta a DNS|  nslookup dig
+hostid			|Muestra la IP del host en hexadecimal|
+hostname			|Muestra o establece el nombre de la máquina|
+hwclock {|--systohc |--hctosys}	|Muestra/establece la fecha hora BIOS| date uptime 
+id				|Muestra identificadores de usuario y grupo (uid/gid)| whoami logname groups
+info [comando]		|Muestra información sobre comandos en una pantalla navegable| man
+init nº			|Cambia de nivel de ejecución| runlevel /etc/inittab
+ispell fichS		|Comprueba/corrige la ortografía de los archivos| look
+jobs			|Nos informa sobre todos los trabajos en ejecución| bg ps kill fg ^Z
+join [-tcar -1 nºCampo -2 nºCampo -o nºfich.nºCampo nºfich.nºCampo ...] fich1 fich2	|Une líneas por un campo común| paste
+kdm				|Lanza la patalla de inicio de sesión gráfico - KDE| startx xdm gdm 
+kill [-nºseñal |-s nombre_señal] {PID's | %nº_job}	|Envía una señal a los procesos| ps jobs bg ^Z
+killall [-s señal] nombre_proc				|Envía una señal a todos los procesos con el mismo nombre| ps jobs bg ^Z
+ksh			|shell de Korn|  sh csh tcsh bash wish
+last			|Lsitado de últimos usuarios conectados al sistema| lastb lastlog
+lastb			|Listado de últimos usuarios con intento de conexión fallida| last lastlog
+lastlog			|Hora y fecha del último login de cada usuario| last lastb
+ldconfig		|Carga de nuevo las bibliotecas dinámicas|
+let exp			|Evalúa expresiones aritmético-lógicas -bash-| expr
+less [fich]		|Visualiza ficheros por páginas. Permite retroceso (filtro)| zless more cat nl uniq head tail od
+ln [-s] fich enlace	|Crea enlaces a ficheros|
+logname			|Muestra el login actual| whoami su passwd
+locate cadena		|Localiza archivos consultando la base de datos local| updatedb
+logout			|Finaliza la sesión iniciada con login| updatedb
+look palabra		|Muestra todas las entradas del diccionario que comienzan por esa palabra| /usr/share/dict/words
+lpr fichs		|Envía archivos a imprimir|
+ls [-l] [dirS]		|Lista el contenido de los directorios| dircolors dir
+lsattr [fichs]		|Muestra los atributos ext2| chattr
+lsof [/dev/ttyX | -i]	|Enumera todos los archivos que están abiertos| fuser
+lspci [-v | -vv]	|Informa sobre las tajetas PCI conectadas| uname
+mail				|programa de correo entre usuarios| write
+man [nºsecc] [-a] comando	|Manual de comandos del sistema operativo| apropos whatis whereis info
+mesg {y|n}			|activamos/anulamos la recepción de mensajes| write
+md5sum fich		|Muestra el código md5| cksum sum
+mkdir dirS		|Crea directorios| rmdir
+mkfifo nombre			|Crea tuberías con nombre (FIFOs o pipes)| mknod
+mkfs [-t tipo -v] /dev/fd0		|Crea el sistema de archivos en un diskete| fdformat
+mknod fich {c|b} nºmajor nºminor	|Crea ficheros especiales - disp. de caracteres/bloques| mkfifo
+more [fichs]				|Visualiza ficheros pantalla a pantalla (filtro)| zmore less vi uniq cat nl head tail od
+mv fichs destino		|Mueve y renombra ficheros| rename
+mount [-t tipo disp] dir		|Monta un dispositivo en un directorio| umount
+nc {-l -p nºpuerto | host nºpuerto}	|netcat- Escucha/establece conexiones en cierto puerto| telnet
+newgrp grupo				|Cambiamos de grupo| su
+nice -nº prog		|Modifica la prioridad de un programa|
+nl [fich]					|numera líneas (filtro)| less cat uniq
+nmap -s{S|T|U|P} [-p portA-portB, ...] hosts	|Escanea puertos| 
+nohup prog					|Continúará ejecutando el programa aunque muera el proceso padre (p.ej., al hacer logout)|
+nslookup dominio [dns]	|Consulta a DNS| dig host
+od [-x] fichs  		|Vuelca ficheros en octal| more less cat nl head tail
+passwd [-d usuario]		|Permite cambiar el password| logname su
+paste [-d char] fich1 fich2	|une lateralmente dos ficheros| join
+pr fichs			|Muestra el fichero como páginas para impresora| cat
+printf "formato" datos	|Muestra datos formateados| echo
+ps [-el]		|Muestra los procesos en ejecución| kill pstree
+pstree [-pna]	|Muestra en árbol los procesos en ejecución| ps kill
+pwck		|Verifica la integridad de los archivos de passwords| grpck
+pwd		|Muestra el directorio de trabajo| cd
+python					|Invoca al intérprete de python|
+rename 's/oldString/newString/' fichS	|Renombra archivos utilizando expresiones regulares perl| mv
+reset					|Restablece la configuración del terminal|
+rm [-rf] fichs		|Borra ficheros| rmdir
+rmdir [-rp] dirS	|Borra directorios| mkdir
+runlevel		|Muestra el nivel de ejecución actual| init 
+script [-a archivo -f]	|Almacena en un archivo la sesión actual| history
+sed			|Editor de flujo|
+seq [prim [inc]] últ	|Muestra una secuencia de números| for
+set			|Muestra variables locales a la shell y de entorno| env export unset
+sh			|Shell de Bourne. En Linux suele ser un enlace a bash| bash csh ksh tcsh wish
+shred					|Borra ficheros destruyendo toda su información en disco|
+shutdown -{h|r} {now|+mins|hh:mm}	|Detiene o reinicia el sistema| halt reboot init uptime exit logout
+sleep segs				|Detiene momentáneamente un proceso|
+sort [-nr] [fichs]			|Muestra la entrada ordenada (filtro)|
+split [-lnº][-bnº] fich [prefijo]	|Rompe un fichero en varios|
+startx [-- :nºdisplay]			|Inicia una nueva sesión X| xinit gdm
+stat fichs		|estado de un fichero en el sistema de archivos|
+strings fichs		|Muestra los caracteres imprimibles|
+stty -a			|Muestra/modifica las características del terminal| tty
+su [usuario]		|Permite cambiar de usuario| logname newgrp
+sum [-s] fichs		|Calcula el checksum tradicional| md5sum
+sync				|Sincroniza memoria y disco: escribe el contenido de los buffers en disco y actualiza el superbloque|
+tar {c|x} [vzfM] destino fichs	|Empaqueta/Extrae archivos y directorios|
+tac fich			|Muestra el fichero invertido (primero la última línea)| cat zcat less more vi uniq nl head tail od
+tail [nº] fich  	|Muestra las últimas líneas de un fichero| head more less uniq cat od vi
+tee fich		|Redirecciona a múltiples ficheros (filtro)|
+test exp-lóg		|Evalúa cadenas y números (devuelve un código de estado: $?)| [exp]
+time comando			|Cronometra el tiempo de proceso de un comando|
+touch [-t MMDDhhmm] [fich]	|Cambia fecha y hora a archivos. Crea archivos vacíos|
+tr [-dsc]			|Traslada caracteres (filtro)|
+true			|escribe un 0 en la variable $?)| false
+tcsh			|shell C -csh- mejorada| csh bash sh ksh wish
+tty			|Escribe el nombre de terminal| stty
+type comando		|Muestra información sobre el tipo de comando| file
+umask máscara		|permisos negados para los nuevos archivos| chmod
+unalias nombre		|Elimina un alias| alias
+uname [-a]		|Muestra información del sistema| /etc/issue /proc/version lspci
+uniq [fich]		|Ignora las líneas idénticas cuando son consecutivas (filtro)| less more nl head tail od vi
+unset [variable]	|elimina variables locales o asigna NULL| export set env
+updatedb		|Actualiza la base de datos local| locate
+uptime				|Tiempo transcurrido desde el arranque del sistema| shutdown hwclock 
+useradd [-m] [-g grupo] nombre	|Crea un nuevo usuario| userdel usermod /etc/passwd groupadd
+userdel [-r] nombre				|Elimina un usuario| useradd usermod
+usermod [-d home -m] [-G grupo2,...] nombre	|Modifica un usuario existente| useradd
+users			|Escribe los nombres de los usuarios conectados| w who
+vi [fichs]		|editor visual| ed more cat head tail od
+w			|informa sobre los usuarios conectados y sus procesos| who ps
+wall			|Envía un mensaje a todos los usuarios| write
+wathis			|Breve descripción del comando| man apropos
+wc [-cwl][fichs]	|Cuenta caracteres, palabras y líneas (filtro)|
+which comando		|Busca la ubicación del comando en los directorios del PATH| whereis
+whereis comando 	|Directorio, página de manual y fuente del comando| which man
+who			|Muestra los usuarios conectados al sistema| finger whoami w
+whoami			|Muestra el nombre del usuario -user id-| id logname who su
+wish			|Shell que permite el manejo de ventanas| bash sh csh tcsh ksh
+write usuario		|Envía un mensaje al terminal de otro usuario| mesg mail
+xdm			|Lanza la patalla de inicio de sesión gráfico - X| startx kdm gdm
+xinit			|Lanza el servidor X window| startx gdm
+yes [mensaje]		|Escribe el carácter 'y' o el mensaje indefinidamente|
+zcat fichs		|Muestra ficheros de texto comprimidos| cat zless zmore gzip
+zless fichs		|Muestra ficheros de texto comprimidos| less zcat zmore gzip
+zmore fichs		|Muestra ficheros texto comprimidos| more less zcat gzip
+
+Operadores, ...
+ 
+
+! [nº|cadena]		|Ejecuta un comando del historial| history
+comando &		|Lanza un proceso en background| jobs
+comando1 ; comando2	|Ejecuta los dos comandos|
+comando1 && comando2	|comando-2 se ejecuta si comando-1 devuelve 0 en $?|
+comando1 || comando2	|comando-2 se ejecuta si comando-1 devuelve algo distinto de 0 en $?|
+comando1 `comando2`	|comunica dos procesos: 'salida del 2º' -> 'línea de comandos del 1º'|
+comando1|comando2	|Comunica dos procesos: 'salida del 1º' -> 'entrada estándar del 2º'|
+(comandos)		|Agrupa comandos en una subshell|
+{ comandos;}		|Agrupa comandos y los ejecuta en la shell actual|
+>			|dirige la salida estándar a un fichero nuevo o a un dispositivo|
+>>			|añade la salida estándar al final de un fichero|
+2>  2>>			|dirige la salida al dispositivo de errores|
+<			|toma la entrada estándar desde un fichero|
+<<			|toma la entrada estándar desde línea de comandos|
+&nº			|Dispositivo con descriptor nº (descriptores estándar: 0:entrada,1:salida,2:error)|
+/dev/null		|Dispositivo nulo|
+[ exp-lóg ]		|Evalúa cadenas y números (devuelve un código de estado: $?)| test
+Ctrl + D		|pone la marca de fin de fichero. Cierra una shell|
+Ctrl + Z		|interrumpe la ejecución de un proceso, pudiéndose lanzar en background| bg
+$?			|Código de retorno -errorlevel- de los comandos. 0 normalmente indica ejecución correcta|
+
+Shell script
+ 
+
+trap 'órdenes' señal	|Captura señales dirigidas al proceso|
+for
+
+Archivos de configuración
+ 
+
+- arranque del sistema:
+/etc/lilo.conf			  |configuración del gestor de arranque LILO|
+/boot/grub/menu.lst	|Menú de configuración del gestor de arranque grub|
+/etc/inittab			  |determina el runlevel que se iniciará|
+/var/log/messages		  |mensajes de arranque del sistema|
+
+- Scripts de configuración de inicio/cierre de login o shell bash:
+/etc/profile		|script de configuración del login de los usuarios (cualquier shell)|
+/etc/bashrc		|script de configuración para cada shell bash abierta por cualquier usuario|
+~/.bash_profile		|script particular de configuración de login de cierto usuario|
+~/.bash_logout		|script particular de configuración de cierre de sesión de cierto usuario)|
+~/.bashrc		|Se ejecuta cada vez que el usuario abre una shell bash|
+
+~/.plan, ~/.project, ~/.pgpkey, ~/.forward	|Archivos que serán visualizados por finger|
+
+~/.bash_history		|Almacena el historial de comandos| $HISTFILE history
+
+/var/log/btmp		|Almacena la información proporcionada por el comando lastb|
+
+/etc/shells		|Listado de shells permitidas al comando chsh|
+
+- servidor X
+/etc/X11/XF86Config-4	|configuracón del servidor xfree|
+
+- montaje de dispositivos
+/etc/fstab		|tabla de inicilización de dispositivos|
+/etc/mtab		|dispositivos montados|
+
+-usuarios
+/etc/login.defs		|Parámetros utilizados con los usuarios|
+/etc/default/useradd	|valores por defecto para el comando useradd|
+/etc/skel		|directorio que será usado como plantilla para los direcotorios de los nuevos usuarios|
+/etc/passwd		|usuarios registrados en el sistema|  pwck
+/etc/group		|grupos registrados en el sistema|
+/etc/shadow		|contraseñas de usuarios|
+/etc/gshadow		|contraseñas de grupos|
+
+/etc/issue	|Distribución Linux instalada| uname
+/proc/version	|versión de la distribución Linux, gcc y kernel|
+
+/usr/share/misc/file/magic	|números mágicos. Empleado por el comando file| file /etc/magic
+/etc/magic	|números mágicos definidos por el usuario para el comando file| /usr/share/misc/file/magic file
+
+/usr/share/dict/words	|Diccionario utilizado por los comandos look y ispell|
+/etc/securetty		|Terminales desde los que root puede hacer login|
+
+Otros
+
+
+
+mysql [-h host]	|Cliente mysql|
+telnet [host nºpuerto]		|Establece una conexión con otra máquina|
+
+
+Servidor X
+ 
+xf86cfg		|Configura el servidor X|
+xf86config		|Configura el servidor X mediante preguntas|
+ctrl+alt+backspace	|Mata al servidor X|
+
+
+Variables de entorno de la shell bash
+ 
+PATH		|Directorios donde buscar comandos ejecutables desde línea de comandos|
+PS1		|Prompt principal de la shell bash| bash
+HISTFILE	|Nombre del fichero que almacenará el historial de comandos|
+HOME		|Ruta a la carpeta del usuario|
+DIRSTACK	|Array que contiene los directorios almacenadas con el comando pushd|
+OLDPWD		|Último directorio visitado. Accedemos a él ejecutando cd -|  
+PWD		|Directorio en que me encuentro actualmente|  
+LS_COLORS	|Colores utilizados por ls --color=auto| 
+
+
+Entornos gráficos
+ 
+kdesktop	|escritorio KDE| 
+kicker		|barra tareas KDE| 
+
+
+Demonios
+ 
+cron		|| 
+atd		|| 
+

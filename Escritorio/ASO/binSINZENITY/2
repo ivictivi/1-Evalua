@@ -1,0 +1,11 @@
+#!/bin/bash
+for archivo in $#
+do
+if [ -f $directorio ]
+then
+more $directorio
+else 
+echo "$directorio no es un fichero" 
+echo "--------------------------"
+fi
+done

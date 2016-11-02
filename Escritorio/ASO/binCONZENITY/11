@@ -1,0 +1,20 @@
+#!/bin/bash
+
+NOMBRE=`cat /etc/passwd | grep "^$LOGNAME" | \
+cut -d: -f5 | cut -d' ' -f1`
+
+NOMBRE=${NOMBRE:-Nadie}
+HORA=`date | cut -c12-13 | tr -d ' '`
+if expr "$HORA" \<= 5 > /dev/null
+then
+  echo 'Buenas noches, '$NOMBRE
+elif expr "$HORA" \<= 12 > /dev/null
+then
+  echo 'Buenos dias, '$NOMBRE
+elif expr "$HORA" \<= 19 > /dev/null
+then
+  echo 'Buenas tardes, '$NOMBRE
+elif expr "$HORA" \<= 24 > /dev/null
+then
+  echo 'Buenas noches, '$NOMBRE
+fi

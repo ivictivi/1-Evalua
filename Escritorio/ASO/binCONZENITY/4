@@ -1,0 +1,10 @@
+#!/bin/bash
+# seaejec: convierte un archivo en ejecutable
+#
+if [ -f $1 ]       
+then
+  chmod ug+x $1
+  ls -l $1
+else
+  echo " el archivo $1 no pudo ser convertido"
+fi 

@@ -1,0 +1,14 @@
+#!/bin/bash
+
+TOTAL=0
+LISTA=`cat respaldo.error | tr -dc "[0-9] "`
+for NUM in $LISTA
+do
+  TOTAL=`expr $TOTAL + $NUM`
+done
+echo "Total General de bytes respaldados: "$TOTAL
+TOTALMB=`expr $TOTAL \/ 1000000`
+echo "Total General de MB respaldados: "$TOTALMB
+TOTALGB=`expr $TOTALMB \/ 1000`
+echo "Total General de GB respaldados: "$TOTALGB 
+

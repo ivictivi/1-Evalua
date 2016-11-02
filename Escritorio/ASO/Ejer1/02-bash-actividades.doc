@@ -1,0 +1,367 @@
+{\rtf1\ansi\deff3\adeflang1025
+{\fonttbl{\f0\froman\fprq2\fcharset0 Times New Roman;}{\f1\froman\fprq2\fcharset2 Symbol;}{\f2\fswiss\fprq2\fcharset0 Arial;}{\f3\froman\fprq2\fcharset0 Liberation Serif{\*\falt Times New Roman};}{\f4\froman\fprq2\fcharset0 Liberation Sans{\*\falt Arial};}{\f5\froman\fprq2\fcharset0 Times New Roman;}{\f6\froman\fprq2\fcharset0 Nimbus Sans L{\*\falt Arial};}{\f7\froman\fprq2\fcharset0 Courier New;}{\f8\fnil\fprq2\fcharset0 Liberation Serif{\*\falt Times New Roman};}{\f9\fnil\fprq2\fcharset0 Times New Roman;}}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red0\green0\blue1;}
+{\stylesheet{\s0\snext0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082 Normal;}
+{\s1\sbasedon0\snext1\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\sb440\sa60\ltrpar\cf1\b\kerning1\dbch\af8\langfe1025\dbch\af8\afs24\loch\f6\fs34\lang3082 Encabezado 1;}
+{\s2\sbasedon0\snext2\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\sb440\sa60\ltrpar\cf1\b\kerning1\dbch\af8\langfe1025\dbch\af8\afs24\loch\f6\fs28\lang3082 Encabezado 2;}
+{\s3\sbasedon0\snext3\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\sb440\sa60\ltrpar\cf1\b\kerning1\dbch\af8\langfe1025\dbch\af8\afs24\loch\f6\fs24\lang3082 Encabezado 3;}
+{\s4\sbasedon0\snext4\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\sb440\sa60\ltrpar\cf1\b\kerning1\dbch\af8\langfe1025\dbch\af8\afs24\loch\f6\fs24\lang3082 Encabezado 4;}
+{\*\cs15\snext15 Default Paragraph Font;}
+{\*\cs16\sbasedon15\snext16\dbch\af9 Caracteres de nota final;}
+{\*\cs17\snext17\fs20 Reference;}
+{\*\cs18\sbasedon15\snext18\dbch\af9\fs20 Footnote;}
+{\*\cs19\snext19\fs20 Reference1;}
+{\*\cs20\snext20\dbch\af9\loch\f5 ListLabel 1;}
+{\*\cs21\snext21\dbch\af9 ListLabel 2;}
+{\*\cs22\snext22\dbch\af9 ListLabel 3;}
+{\*\cs23\snext23\dbch\af9 ListLabel 4;}
+{\*\cs24\snext24\dbch\af9 ListLabel 5;}
+{\*\cs25\snext25\dbch\af9 ListLabel 6;}
+{\*\cs26\snext26\dbch\af9 ListLabel 7;}
+{\*\cs27\snext27\dbch\af9 ListLabel 8;}
+{\*\cs28\snext28\dbch\af9 ListLabel 9;}
+{\*\cs29\snext29\dbch\af9 ListLabel 10;}
+{\*\cs30\snext30\dbch\af9 ListLabel 11;}
+{\*\cs31\snext31\dbch\af9 ListLabel 12;}
+{\s32\sbasedon0\snext33\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\sb240\sa120\keepn\ltrpar\cf1\kerning1\dbch\af8\langfe1025\dbch\af8\afs24\loch\f4\fs28\lang3082 Encabezado;}
+{\s33\sbasedon0\snext33\sl288\slmult1\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa140\ltrpar\cf1\kerning1\dbch\af8\langfe1025\dbch\af8\afs24\loch\f5\fs24\lang3082 Cuerpo de texto;}
+{\s34\sbasedon33\snext34\sl288\slmult1\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa140\ltrpar\cf1\kerning1\dbch\af8\langfe1025\dbch\af8\afs24\loch\f5\fs24\lang3082 Lista;}
+{\s35\sbasedon0\snext35\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\sb120\sa120\ltrpar\cf1\i\kerning1\dbch\af8\langfe1025\dbch\af8\afs24\loch\f5\fs24\lang3082 Leyenda;}
+{\s36\sbasedon0\snext36\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1025\dbch\af8\afs24\loch\f5\fs24\lang3082 \u205\'cdndice;}
+{\s37\snext37\ql\widctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs20\lang3082 DocumentMap;}
+{\s38\sbasedon0\snext38\ql\nowidctlpar\hyphpar0\faauto\li720\ri0\lin720\rin0\fi-431\ltrpar\cf1\kerning1\dbch\af8\langfe1025\dbch\af8\afs24\loch\f5\fs24\lang3082 Contents 1;}
+{\s39\sbasedon0\snext39\ql\nowidctlpar\hyphpar0\faauto\li1440\ri0\lin1440\rin0\fi-431\ltrpar\cf1\kerning1\dbch\af8\langfe1025\dbch\af8\afs24\loch\f5\fs24\lang3082 Contents 2;}
+{\s40\sbasedon0\snext40\ql\nowidctlpar\hyphpar0\faauto\li2160\ri0\lin2160\rin0\fi-431\ltrpar\cf1\kerning1\dbch\af8\langfe1025\dbch\af8\afs24\loch\f5\fs24\lang3082 Contents 3;}
+{\s41\sbasedon0\snext41\ql\nowidctlpar\hyphpar0\faauto\li720\ri0\lin720\rin0\fi-431\ltrpar\cf1\kerning1\dbch\af8\langfe1025\dbch\af8\afs24\loch\f5\fs24\lang3082 Lower Roman List;}
+{\s42\snext42\ql\nowidctlpar\tx431\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f3\fs24\lang3082 Numbered Heading 1;}
+{\s43\snext43\ql\nowidctlpar\tx431\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f3\fs24\lang3082 Numbered Heading 2;}
+{\s44\snext44\ql\nowidctlpar\hyphpar0\faauto\li720\ri0\lin720\rin0\fi-431\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082 Square List;}
+{\s45\sbasedon0\snext45\ql\nowidctlpar\hyphpar0\faauto\li2880\ri0\lin2880\rin0\fi-431\ltrpar\cf1\kerning1\dbch\af8\langfe1025\dbch\af8\afs24\loch\f5\fs24\lang3082 Contents 4;}
+{\s46\snext46\ql\nowidctlpar\hyphpar0\faauto\li720\ri0\lin720\rin0\fi-431\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082 Diamond List;}
+{\s47\snext47\ql\nowidctlpar\hyphpar0\faauto\li720\ri0\lin720\rin0\fi-431\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082 Numbered List;}
+{\s48\snext48\ql\nowidctlpar\hyphpar0\faauto\li720\ri0\lin720\rin0\fi-431\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082 Triangle List;}
+{\s49\snext49\ql\nowidctlpar\tx431\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f3\fs24\lang3082 Numbered Heading 3;}
+{\s50\snext50\ql\nowidctlpar\hyphpar0\faauto\li720\ri0\lin720\rin0\fi-431\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082 Dashed List;}
+{\s51\sbasedon47\snext51\ql\nowidctlpar\hyphpar0\faauto\li720\ri0\lin720\rin0\fi-431\ltrpar\cf1\kerning1\dbch\af8\langfe1025\dbch\af8\afs24\loch\f5\fs24\lang3082 Upper Roman List;}
+{\s52\snext52\ql\nowidctlpar\hyphpar0\faauto\li720\ri0\lin720\rin0\fi-431\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082 Heart List;}
+{\s53\snext53\ql\nowidctlpar\hyphpar0\faauto\li720\ri0\lin720\rin0\fi-431\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082 Box List;}
+{\s54\snext54\ql\nowidctlpar\hyphpar0\faauto\li720\ri0\lin720\rin0\fi-431\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082 Implies List;}
+{\s55\sbasedon47\snext55\ql\nowidctlpar\hyphpar0\faauto\li720\ri0\lin720\rin0\fi-431\ltrpar\cf1\kerning1\dbch\af8\langfe1025\dbch\af8\afs24\loch\f5\fs24\lang3082 Upper Case List;}
+{\s56\snext56\ql\nowidctlpar\hyphpar0\faauto\li720\ri0\lin720\rin0\fi-431\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082 Bullet List;}
+{\s57\snext57\ql\nowidctlpar\hyphpar0\faauto\li720\ri0\lin720\rin0\fi-431\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082 Hand List;}
+{\s58\sbasedon37\snext58\ql\widctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1025\dbch\af8\afs24\loch\f5\fs20\lang3082 Table Grid;}
+{\s59\sbasedon0\snext59\qc\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\sb240\sa120\ltrpar\cf1\b\kerning1\dbch\af8\langfe1025\dbch\af8\afs24\loch\f6\fs32\lang3082 Contents Header;}
+{\s60\snext60\ql\nowidctlpar\hyphpar0\faauto\li720\ri0\lin720\rin0\fi-431\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082 Tick List;}
+{\s61\sbasedon47\snext61\ql\nowidctlpar\hyphpar0\faauto\li720\ri0\lin720\rin0\fi-431\ltrpar\cf1\kerning1\dbch\af8\langfe1025\dbch\af8\afs24\loch\f5\fs24\lang3082 Lower Case List;}
+{\s62\sbasedon0\snext62\ql\nowidctlpar\hyphpar0\faauto\li1440\ri1440\lin1440\rin1440\fi0\sb0\sa120\ltrpar\cf1\kerning1\dbch\af8\langfe1025\dbch\af8\afs24\loch\f5\fs24\lang3082 Block Text;}
+{\s63\sbasedon0\snext63\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1025\dbch\af8\afs24\loch\f7\fs24\lang3082 Plain Text;}
+{\s64\sbasedon42\snext64\ql\nowidctlpar\tx1584\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe3082\dbch\af8\afs24\loch\f3\fs24\lang3082 Section Heading;}
+{\s65\snext65\ql\nowidctlpar\hyphpar0\faauto\li720\ri0\lin720\rin0\fi-431\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082 Star List;}
+{\s66\sbasedon42\snext66\ql\nowidctlpar\tx1584\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe3082\dbch\af8\afs24\loch\f3\fs24\lang3082 Chapter Heading;}
+}{\*\listtable{\list\listtemplateid1
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'00.;}{\levelnumbers\'01;}\dbch\af9\fi-360\li720}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'01.;}{\levelnumbers\'01;}\fi-360\li1080}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'02.;}{\levelnumbers\'01;}\fi-360\li1440}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'03.;}{\levelnumbers\'01;}\fi-360\li1800}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'04.;}{\levelnumbers\'01;}\fi-360\li2160}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'05.;}{\levelnumbers\'01;}\fi-360\li2520}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'06.;}{\levelnumbers\'01;}\fi-360\li2880}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'07.;}{\levelnumbers\'01;}\fi-360\li3240}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'08.;}{\levelnumbers\'01;}\fi-360\li3600}\listid1}
+{\list\listtemplateid2
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi-432\li432}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi-576\li576}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi-720\li720}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi-864\li864}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi-1008\li1008}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi-1152\li1152}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi-1296\li1296}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi-1440\li1440}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi-1584\li1584}\listid2}
+}{\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}{\*\generator LibreOffice/5.1.4.2$Linux_X86_64 LibreOffice_project/10m0$Build-2}{\info{\creatim\yr2007\mo11\dy23\hr15\min29}{\revtim\yr2016\mo9\dy22\hr12\min41}{\printim\yr0\mo0\dy0\hr0\min0}}\deftab720\deftab720\deftab720\deftab720\deftab720\deftab720\deftab720\deftab720\deftab720\deftab720\deftab720\deftab720\deftab720\deftab720
+\hyphauto0\viewscale100
+{\*\pgdsctbl
+{\pgdsc0\pgdscuse451\pgwsxn11906\pghsxn16838\marglsxn510\margrsxn566\margtsxn566\margbsxn566\pgdscnxt0 Estilo predeterminado;}}
+\formshade{\*\pgdscno0}\paperh16838\paperw11906\margl510\margr566\margt566\margb566\sectd\sbknone\sectunlocked1\pgndec\pgwsxn11906\pghsxn16838\marglsxn510\margrsxn566\margtsxn566\margbsxn566\ftnbj\ftnstart1\ftnrstcont\ftnnar\aenddoc\aftnrstcont\aftnstart1\aftnnrlc
+{\*\ftnsep}\pgndec\pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\rtlch \ltrch\loch
+Nombre:Ignacio garcia martinez           Ciclo:2\u186\'baASIR}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\rtlch \ltrch\loch
+En }{\b\rtlch \ltrch\loch
+UN comando}{\rtlch \ltrch\loch
+ haz las siguientes actividades en BASH (Sin pasar por la carpeta ra\u237\'edz):}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082{\listtext\pard\plain \dbch\af9 1.\tab}\ilvl0\ls1 \li1080\ri0\lin1080\rin0\fi-360\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar{\rtlch \ltrch\loch
+Sit\u250\'faate en tu carpeta personal \u8211\'96HOME-}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar{\cf6\rtlch \ltrch
+ }{\cf6\rtlch \ltrch\loch
+cd}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082{\listtext\pard\plain \dbch\af9 2.\tab}\ilvl0\ls1 \li1080\ri0\lin1080\rin0\fi-360\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar{\rtlch \ltrch\loch
+Crea un fichero vac\u237\'edo llamado }{\i\rtlch \ltrch\loch
+origen.txt}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\rtlch \ltrch
+      }{\cf6\rtlch \ltrch\loch
+touch origen.txt}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082{\listtext\pard\plain \dbch\af9 3.\tab}\ilvl0\ls1 \li1080\ri0\lin1080\rin0\fi-360\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar{\rtlch \ltrch\loch
+Crea una variable con el valor }{\i\rtlch \ltrch\loch
+Hola a todos}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\cf6\rtlch \ltrch
+       }{\cf6\rtlch \ltrch\loch
+var=\u8221\'94Hola a todos\u8221\'94}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\cf6\rtlch \ltrch
+       }{\cf6\rtlch \ltrch\loch
+echo $var}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082{\listtext\pard\plain \dbch\af9 4.\tab}\ilvl0\ls1 \li1080\ri0\lin1080\rin0\fi-360\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar{\rtlch \ltrch\loch
+A\u241\'f1ade el valor de la variable anterior al fichero }{\i\rtlch \ltrch\loch
+origen.txt}{\rtlch \ltrch\loch
+ el texto}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\rtlch \ltrch
+        }{\cf6\rtlch \ltrch\loch
+echo $var >> origen.txt}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082{\listtext\pard\plain \dbch\af9 5.\tab}\ilvl0\ls1 \li1080\ri0\lin1080\rin0\fi-360\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar{\rtlch \ltrch\loch
+Sit\u250\'faate en la carpeta }{\i\rtlch \ltrch\loch
+ejercicio01}{\rtlch \ltrch\loch
+ contenida en  }{\i\rtlch \ltrch\loch
+tema02}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li-57\ri0\lin-57\rin0\fi0\ltrpar{\rtlch \ltrch
+          }{\cf6\rtlch \ltrch\loch
+cd Escritorio/ASO/Ejer1/tema02/ejercicio01}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082{\listtext\pard\plain \dbch\af9 6.\tab}\ilvl0\ls1 \li1080\ri0\lin1080\rin0\fi-360\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar{\rtlch \ltrch\loch
+Copia el fichero }{\i\rtlch \ltrch\loch
+origen.txt}{\rtlch \ltrch\loch
+ a }{\i\rtlch \ltrch\loch
+ejercicio02}{\rtlch \ltrch\loch
+ contenida en  }{\i\rtlch \ltrch\loch
+tema02}{\rtlch \ltrch\loch
+ }
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li624\ri0\lin624\rin0\fi283\ltrpar{\cf6\rtlch \ltrch\loch
+cp /datos/usuarios/alumnos/a029222085x/origen.txt Escritorio/ASO/Ejer1/tema02/ejercicio02}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082{\listtext\pard\plain \dbch\af9 7.\tab}\ilvl0\ls1 \li1080\ri0\lin1080\rin0\fi-360\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar{\rtlch \ltrch\loch
+Copia el fichero }{\i\rtlch \ltrch\loch
+origen.txt}{\rtlch \ltrch\loch
+ a }{\i\rtlch \ltrch\loch
+ejercicio02}{\rtlch \ltrch\loch
+ contenida en  }{\i\rtlch \ltrch\loch
+tema02}{\rtlch \ltrch\loch
+ con el nombre }{\i\rtlch \ltrch\loch
+origenCopia.txt}{\rtlch \ltrch\loch
+ }
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar{\rtlch \ltrch\loch
+\tab }{\cf6\rtlch \ltrch\loch
+cp ~/origen.txt ~/Escritorio/ASO/Ejer1/tema02/ejercicio02/origenCopia.txt}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082{\listtext\pard\plain \dbch\af9 8.\tab}\ilvl0\ls1 \li1080\ri0\lin1080\rin0\fi-360\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar{\rtlch \ltrch\loch
+Crea una carpeta llamada }{\i\rtlch \ltrch\loch
+BACK}{\rtlch \ltrch\loch
+ que estar\u225\'e1 contenida en tu carpeta personal-HOME}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar{\rtlch \ltrch\loch
+\tab }{\cf6\rtlch \ltrch\loch
+mkdir BACK}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082{\listtext\pard\plain \dbch\af9 9.\tab}\ilvl0\ls1 \li1080\ri0\lin1080\rin0\fi-360\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar{\rtlch \ltrch\loch
+Copia la carpeta }{\i\rtlch \ltrch\loch
+tema01}{\rtlch \ltrch\loch
+ con todos los ficheros y subcarpetas en la carpeta }{\i\rtlch \ltrch\loch
+BACK}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar{\i0\rtlch \ltrch\loch
+\tab }{\cf6\i0\rtlch \ltrch\loch
+cp -r ~/Escritorio/ASO/Ejer1/tema01 ~/BACK}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \trowd\trql\trleft290\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf17\clbrdrl\brdrs\brdrw10\brdrcf17\clbrdrb\brdrs\brdrw10\brdrcf17\clbrdrr\brdrs\brdrw10\brdrcf17\clvertalt\cellx4440\clbrdrt\brdrs\brdrw10\brdrcf17\clbrdrl\brdrs\brdrw10\brdrcf17\clbrdrb\brdrs\brdrw10\brdrcf17\clbrdrr\brdrs\brdrw10\brdrcf17\clvertalt\cellx5931\clbrdrt\brdrs\brdrw10\brdrcf17\clbrdrl\brdrs\brdrw10\brdrcf17\clbrdrb\brdrs\brdrw10\brdrcf17\clbrdrr\brdrs\brdrw10\brdrcf17\clvertalt\cellx9234\clbrdrt\brdrs\brdrw10\brdrcf17\clbrdrl\brdrs\brdrw10\brdrcf17\clbrdrb\brdrs\brdrw10\brdrcf17\clbrdrr\brdrs\brdrw10\brdrcf17\clvertalt\cellx11119\pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\intbl\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\rtlch \ltrch\loch
+Haz que la variable del ejer. 3 sea visible por los subshell}\cell\pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\intbl\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\rtlch \ltrch\loch
+Abre un subshell}\cell\pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\intbl\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\rtlch \ltrch\loch
+Imprime el valor de la variable del ejer.3}\cell\pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\intbl\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\rtlch \ltrch\loch
+Cierra el subshell}\cell\row\pard\trowd\trql\trleft290\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf17\clbrdrl\brdrs\brdrw10\brdrcf17\clbrdrb\brdrs\brdrw10\brdrcf17\clbrdrr\brdrs\brdrw10\brdrcf17\clvertalt\cellx4440\clbrdrt\brdrs\brdrw10\brdrcf17\clbrdrl\brdrs\brdrw10\brdrcf17\clbrdrb\brdrs\brdrw10\brdrcf17\clbrdrr\brdrs\brdrw10\brdrcf17\clvertalt\cellx5931\clbrdrt\brdrs\brdrw10\brdrcf17\clbrdrl\brdrs\brdrw10\brdrcf17\clbrdrb\brdrs\brdrw10\brdrcf17\clbrdrr\brdrs\brdrw10\brdrcf17\clvertalt\cellx9234\clbrdrt\brdrs\brdrw10\brdrcf17\clbrdrl\brdrs\brdrw10\brdrcf17\clbrdrb\brdrs\brdrw10\brdrcf17\clbrdrr\brdrs\brdrw10\brdrcf17\clvertalt\cellx11119\pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\intbl\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\cf6\rtlch \ltrch\loch
+export var}\cell\pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\intbl\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\cf6\rtlch \ltrch\loch
+bash}\cell\pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\intbl\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\cf6\rtlch \ltrch\loch
+echo $var}\cell\pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\intbl\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\cf6\rtlch \ltrch\loch
+exit }\cell\row\pard\pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082{\listtext\pard\plain \dbch\af9 10.\tab}\ilvl0\ls1 \li1080\ri0\lin1080\rin0\fi-360\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar{\rtlch \ltrch\loch
+Destruye la variable del ejercicio 3}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\rtlch \ltrch\loch
+\tab }
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\rtlch \ltrch
+    }{\rtlch \ltrch\loch
+\tab   }{\cf6\rtlch \ltrch\loch
+unset $Mensaje}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082{\listtext\pard\plain \dbch\af9 11.\tab}\ilvl0\ls1 \li1080\ri0\lin1080\rin0\fi-360\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar{\rtlch \ltrch\loch
+Imprime las variables globales o de ambiente que contengan }{\i\rtlch \ltrch\loch
+PS}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar{\rtlch \ltrch\loch
+\tab }{\cf6\rtlch \ltrch\loch
+set | grep 'PS'}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082{\listtext\pard\plain \dbch\af9 12.\tab}\ilvl0\ls1 \li1080\ri0\lin1080\rin0\fi-360\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar{\rtlch \ltrch\loch
+Renombra el fichero }{\i\rtlch \ltrch\loch
+origenCopia.txt}{\rtlch \ltrch\loch
+ contenido en  }{\i\rtlch \ltrch\loch
+tema02}{\rtlch \ltrch\loch
+ y en }{\i\rtlch \ltrch\loch
+ejercicio02}{\rtlch \ltrch\loch
+ con el nombre }{\i\rtlch \ltrch\loch
+origen.txt.back}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar{\cf6\i0\rtlch \ltrch\loch
+mv ~/Escritorio/ASO/Ejer1/tema02/ejercicio02/origenCopia.txt ~/Escritorio/ASO/Ejer1/tema02/ejercicio02/origenCopia.txt.back}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082{\listtext\pard\plain \dbch\af9 13.\tab}\ilvl0\ls1 \li1080\ri0\lin1080\rin0\fi-360\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar{\rtlch \ltrch\loch
+Mueve el fichero }{\i\rtlch \ltrch\loch
+origen.txt.back}{\rtlch \ltrch\loch
+ a }{\i\rtlch \ltrch\loch
+ejercicio02}{\rtlch \ltrch\loch
+ contenida en  }{\i\rtlch \ltrch\loch
+tema03}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar{\cf6\i0\rtlch \ltrch\loch
+mv ~/Escritorio/ASO/Ejer1/tema02/ejercicio02/origenCopia.txt.back ~/Escritorio/ASO/Ejer1/tema03/ejercicio02}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082{\listtext\pard\plain \dbch\af9 14.\tab}\ilvl0\ls1 \li1080\ri0\lin1080\rin0\fi-360\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar{\rtlch \ltrch\loch
+Renombra la carpeta }{\i\rtlch \ltrch\loch
+ejercicio02}{\rtlch \ltrch\loch
+ contenida en  }{\i\rtlch \ltrch\loch
+tema03}{\rtlch \ltrch\loch
+ como }{\i\rtlch \ltrch\loch
+ejercicio02t03}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar{\cf6\rtlch \ltrch\loch
+mv Escritorio/ASO/Ejer1/tema03/ejercicio02 Escritorio/ASO/Ejer1/tema03/ejercicio02t03}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082{\listtext\pard\plain \dbch\af9 15.\tab}\ilvl0\ls1 \li1080\ri0\lin1080\rin0\fi-360\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar{\rtlch \ltrch\loch
+Borra la carpeta }{\i\rtlch \ltrch\loch
+tema01}{\rtlch \ltrch\loch
+ contenida en }{\i\rtlch \ltrch\loch
+BACK}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar{\cf6\i0\ai0\rtlch \ltrch\loch
+rm -R BACK/tema01}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082{\listtext\pard\plain \dbch\af9 16.\tab}\ilvl0\ls1 \li1080\ri0\lin1080\rin0\fi-360\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar{\rtlch \ltrch\loch
+Mueve la carpeta }{\i\rtlch \ltrch\loch
+ejercicio02}{\rtlch \ltrch\loch
+ contenida en  }{\i\rtlch \ltrch\loch
+tema03 }{\rtlch \ltrch\loch
+y tambi\u233\'e9n}{\i\rtlch \ltrch\loch
+ en tema02 }{\rtlch \ltrch\loch
+a la carpeta }{\i\rtlch \ltrch\loch
+BACK}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar{\cf6\i0\ai0\rtlch \ltrch\loch
+mv Escritorio/ASO/Ejer1/tema\{02,03\}/ejercicio02* ~/BACK/}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082{\listtext\pard\plain \dbch\af9 17.\tab}\ilvl0\ls1 \li1080\ri0\lin1080\rin0\fi-360\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar{\rtlch \ltrch\loch
+Mueve los ficheros de la carpeta }{\i\rtlch \ltrch\loch
+ejercicio03}{\rtlch \ltrch\loch
+ (quedar\u225\'e1 vac\u237\'eda) contenida en  }{\i\rtlch \ltrch\loch
+tema01 }{\rtlch \ltrch\loch
+a la carpeta }{\i\rtlch \ltrch\loch
+BACK}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar\cf6\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar{\cf6\i0\ai0\rtlch \ltrch\loch
+mv Escritorio/ASO/Ejer1/tema01/ejercicio03/* ~/BACK/}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf6\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082{\listtext\pard\plain \dbch\af9 18.\tab}\ilvl0\ls1 \li1080\ri0\lin1080\rin0\fi-360\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar{\rtlch \ltrch\loch
+Crea una variable que contendr\u225\'e1 como valor la ruta hasta }{\i\rtlch \ltrch\loch
+origen.txt }{\rtlch \ltrch\loch
+del 1\u186\'ba ejercicio}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar{\cf6\rtlch \ltrch\loch
+ruta="Escritorio/ASO/Ejer1/"}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082{\listtext\pard\plain \dbch\af9 19.\tab}\ilvl0\ls1 \li1080\ri0\lin1080\rin0\fi-360\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar{\rtlch \ltrch\loch
+Utiliza la variable para listar el directorio que contiene el fichero }{\i\rtlch \ltrch\loch
+origen.txt}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar{\cf6\i0\ai0\rtlch \ltrch\loch
+ls $ruta}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082{\listtext\pard\plain \dbch\af9 20.\tab}\ilvl0\ls1 \li1080\ri0\lin1080\rin0\fi-360\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar{\rtlch \ltrch\loch
+Utiliza la variable para cambiar al directorio que contiene el fichero }{\i\rtlch \ltrch\loch
+origen.txt}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar{\cf6\i0\ai0\rtlch \ltrch\loch
+cd $ruta}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082{\listtext\pard\plain \dbch\af9 21.\tab}\ilvl0\ls1 \li1080\ri0\lin1080\rin0\fi-360\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar{\rtlch \ltrch\loch
+Utiliza la variable para cambiar al directorio BACK como ruta absoluta}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082{\listtext\pard\plain \dbch\af9 22.\tab}\ilvl0\ls1 \li1080\ri0\lin1080\rin0\fi-360\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar{\rtlch \ltrch\loch
+Crea un comando que al ejecutarlo te sit\u250\'fae en el directorio ejercicio1 de la carpeta tema3}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar{\cf6\rtlch \ltrch\loch
+cd Escritorio/ASO/Ejer1/tema03/ejercicio01}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082{\listtext\pard\plain \dbch\af9 23.\tab}\ilvl0\ls1 \li1080\ri0\lin1080\rin0\fi-360\ql\widctlpar\hyphpar0\faauto\li360\ri0\lin360\rin0\fi0\ltrpar{\rtlch \ltrch\loch
+B\u243\'f3rra este comando}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f5\fs24\lang3082\ql\widctlpar\hyphpar0\faauto\li0\ri0\lin0\rin0\fi0\ltrpar\rtlch \ltrch\loch
+
+\par }

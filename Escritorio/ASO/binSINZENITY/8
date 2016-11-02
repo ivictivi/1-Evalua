@@ -1,0 +1,19 @@
+#!/bin/bash
+
+USUARIO=$1
+id $USUARIO 1>/dev/null 2>&1
+ERROR=$?
+if [ $ERROR -ne 0 ]
+then
+  echo "El usuario " $USUARIO "no existe"
+  exit
+fi
+NOMBRE=`id $USUARIO | cut -f1 -d" "`
+echo \(UID\) y nombre: $NOMBRE
+GRUPO1=`id $USUARIO | cut -f2 -d" "`
+echo \(GID\) y grupo primario: $GRUPO1
+if test `id $USUARIO | tr " " "\n" | wc -l` -gt 2
+then
+  GRUPOS2=`id $USUARIO | cut -f3 -d" "`
+echo \(GIDs\) y grupos secundarios: $GRUPOS2
+fi

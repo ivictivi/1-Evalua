@@ -1,0 +1,16 @@
+#!/bin/bash
+echo "Introduce un nombre de archivo"
+read v1
+if [ -r $v1 ]
+then 
+echo "$v1 es legible"
+fi
+if [ -w $v1 ]
+then 
+echo "$v1 es grabable"
+fi
+if [ -x $v1 ]
+then
+echo "$v1 es ejecutable"
+fi
+
