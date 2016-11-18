@@ -18,3 +18,37 @@ SELECT id_cliente,
 SUM (importe_pedido(idpedido))
 from 'cabped'
 where id_cliente=19 and month(FECHA_PED=11)
+
+-------precio€ y $ existencias
+select idproducto,existencias,precioe,preciod,
+funcion_pro (idproducto)
+from producto
+
+---------existencias pedido
+select idpedido,existe_pedido(idpedido),existe_pedido(88888)
+from pedido
+where idpedido>11075;
+
+------ie_pedido
+------funcion
+BEGIN
+declare v_hay_pedido text default 'NO';
+declare v_existencias int default 0;
+
+ v_hay_pedido = existe_pedido(elpedido);
+then
+if existe_linea_pedido(elpedido,elproducto) = 'SI'
+	then 
+	if lacantidad <0
+		then /*actualizar linea pedido*/
+		else 
+		/* consultar existencias*/
+		end if;
+		else 
+		
+		/*--consultar existencias
+		-- si se puede insertar linea pedi.*/
+		end if;
+else
+		
+END

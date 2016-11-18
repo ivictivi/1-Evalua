@@ -1,7 +1,0 @@
-#!/bin/bash
-var1=`ls -lR $1`
-if [ -d $1 ]
-	then 
-	ls -lR $1 | more  -23 
-fi
-
